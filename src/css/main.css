@@ -1,0 +1,52 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../../node_modules/font-awesome/css/font-awesome.css";
+body {
+    background-color: #A5243D;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.player {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin: 5px 0px;
+}
+
+.player-body {
+    padding: 10px;
+}
+
+.playerOne {
+    border-left: 1rem solid #CEE0DC;
+}
+
+.playerOne:focus {
+    border-color: #00ffc8;
+}
+
+.playerTwo {
+    border-left: 1rem solid #B9CFD4;
+}
+
+.playerThree {
+    border-left: 1rem solid #AFAAB9;
+}
+
+.addPlayer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 5px dotted rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin: 5px 0px;
+}
